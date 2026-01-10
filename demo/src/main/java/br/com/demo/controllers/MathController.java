@@ -18,21 +18,4 @@ public class MathController {
         return 1D;
 
     }
-
-    @RequestMapping("/sub")
-    public int sub (
-            @RequestParam(value="a/b")
-            int a, int b) {
-
-        return a - b;
-
-    }
-
-    public int sub (
-            @RequestParam(value="a/b")
-            int a, int b) {
-
-        return a - b;
-
-    }
 }
